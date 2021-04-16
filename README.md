@@ -1,7 +1,13 @@
-# writers_sql
-realization sql database about writers and books
+realization sql database about writers and books.
 
-1) clone this repo
-2) fill database.ini file your information
-3) change arg "--init" in Dockerfile
-4) run ./build in your repo dir
+Run via docker.
+1) Clone this repo;
+2) Fill database.ini file with your information;
+3) Change arg "--init" in Dockerfile;
+4) Run ./build in your repo dir.
+
+Run via terminal.
+1) Clone this repo;
+2) Fill database.ini file with your information;
+3.1) First running: "python3 app.py --init=True" for initial database;
+3.2) Subsequent running "python3 app.py" for just lunch service.
