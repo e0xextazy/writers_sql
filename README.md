@@ -1,4 +1,5 @@
-realization sql database about writers and books.
+Postgresql database implementation that stores information about writers and their works and a flask service to get data from the database.
+
 
 Run via docker.
 1) Clone this repo;
